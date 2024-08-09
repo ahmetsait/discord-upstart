@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "code-d",
+			"request": "launch",
+			"dubBuild": true,
+			"name": "Build & Debug DUB project",
+			"cwd": "${command:dubWorkingDirectory}",
+			// Code-D does not expand Dub variables in `launch.json`
+			// https://github.com/Pure-D/code-d/issues/461
+			"program": "bin/debug-linux-x86_64/discord-upstart",
+			"windows": {
+				"program": "bin/debug-windows-x86_64/discord-upstart",
+			},
+		},
+	],
+}

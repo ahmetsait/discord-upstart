@@ -1,0 +1,32 @@
+# Build Directories
+[Bb]in
+
+# Dependency Folders
+[Ll]ib
+
+# Compiled Object Files
+*.o
+*.obj
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static Libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# DUB
+# =========================
+.dub
+docs.json
+__dummy.html
+docs/
+build/
+
+# Code coverage
+*.lst
