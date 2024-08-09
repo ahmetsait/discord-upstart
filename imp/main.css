@@ -1,0 +1,7 @@
+widget {
+	margin: 10px;
+}
+
+progress, trough {
+	min-height: 30px;
+}

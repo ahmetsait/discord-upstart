@@ -1,0 +1,23 @@
+{
+	"name": "discord-upstart",
+	"authors": ["Ahmet Sait"],
+	"description": "Discord launcher with automatic package installation.",
+	"copyright": "Copyright © 2024 Ahmet Sait",
+	"license": "BSL-1.0",
+	"targetName": "discord-upstart",
+	"targetType": "executable",
+	"targetPath": "bin/$BUILD_TYPE-$PLATFORM-$ARCH",
+	"workingDirectory": ".",
+	"mainSourceFile": "src/discord/upstart/main.d",
+	"sourcePaths": ["src"],
+	"sourceFiles-windows": ["lib/$ARCH/*.lib"],
+	"importPaths": ["src"],
+	"stringImportPaths": ["imp"],
+	"copyFiles-windows": [
+		"lib/$ARCH/*.dll",
+	],
+	"buildOptions-windows": ["debugInfoC"],
+	"dependencies": {
+		"gtk-d": "~>3.10.0",
+	},
+}
