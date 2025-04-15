@@ -279,7 +279,7 @@ class AppWindow : ApplicationWindow
 				data.window.terminal.spawnSync(
 					PtyFlags.DEFAULT,
 					null,
-					["apt", "install", "-y", data.debFile],
+					["apt", "install", "--yes", "--allow-downgrades", data.debFile],
 					null,
 					SpawnFlags.SEARCH_PATH,
 					&setEffectiveIds,

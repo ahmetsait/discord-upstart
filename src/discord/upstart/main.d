@@ -57,7 +57,7 @@ int main(string[] args)
 	immutable string latestVersionString = apiJson["name"].str;
 	immutable Version latestVersion = Version.parse(latestVersionString);
 	
-	if (currentVersion >= latestVersion)
+	if (currentVersion == latestVersion)
 		execDiscord();
 	
 	App app = new App("nx.discord.upstart", releaseChannel);
