@@ -1,7 +1,7 @@
 <div align="center">
 
 Discord Upstart  
-![Platforms](https://img.shields.io/badge/platforms-linux-blue)
+![Platforms](https://img.shields.io/badge/platforms-linux-blue) [![Sponsor](https://img.shields.io/badge/Sponsor-black?logo=githubsponsors)](https://github.com/sponsors/ahmetsait)
 ========
 </div>
 
